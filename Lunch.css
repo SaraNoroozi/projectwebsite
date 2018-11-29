@@ -1,0 +1,76 @@
+
+h1 {color: black;
+  text-align: left;
+  font-size: 80px;
+  font-family: 'Indie Flower', cursive;
+  color: black;
+}
+
+p {text-align: left;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+}
+
+
+h2 {font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+img {width: 400px;
+  height: 250px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #E0DFDF;
+}
+
+.header {
+    background-image: url("images/chilli.jpg");
+    padding: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
