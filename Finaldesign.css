@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+#page1{
+
+height: 1000px;
+}
+
+
+
 .header {
   display:grid;
   grid-template-columns: 1fr;
@@ -13,6 +23,9 @@
 
 .icon-bar {
   position: fixed;
+
+
+
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -59,9 +72,6 @@
   color: white;
 }
 
-
-}
-
 body {
   background-color: #FAFAFA;
   font-family: helvetica;
@@ -69,6 +79,7 @@ body {
   margin: 0;
   padding-bottom: 0;
 }
+
 
 ul{
   list-style-type: none;
@@ -148,6 +159,7 @@ li{
   top: 0;
 }
 
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -171,7 +183,8 @@ li{
   -webkit-animation-duration: 3;
   animation-name: fade;
   animation-duration: 3s;
-}/
+}
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -190,3 +203,4 @@ li{
     margin: 5px 2px;
     border-radius: 50%;
   }
+  

@@ -2,87 +2,157 @@
 <html>
     <head>
         <title>Dining Report</title>
+          <link rel="shortcut icon" href="images/DR.png" title="Dining report">
           <link href='css/bootstrap.css' rel='stylesheet'>
           <meta name="viewport" content="width=device-width,initial-scale=1.0">
-          <link rel="shortcut icon" href="DR.png" title="Dining report">
-        <link rel="stylesheet" type= "text/css" href="Finaldesign.css">
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" type= "text/css" href="Finaldesign.css">
+          <link rel="stylesheet" type="text/css" href="FinalCss2.css">
+          <script src="js/jquery-3.2.1.min.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-
     <body>
 
       <div class="header">
-        
+
         <div>
           <ul>
-            <li> Home</li>
-            <li>Dinner Date Inspo</li>
-            <li> Brunch in London</li>
-            <li> Dessert recipes</li>
-            <li> Sunday Lunch</li>
+            <li><a href="#Home"></a> Home</li>
+            <li><a href="about"></a> About </li>
+            <li><a href="#Brunch in Bath"></a> Brunch in Bath</li>
+            <li><a href= '#DinnerDateInspo'></a>Dinner Date Inspo</li>
+            <li><a href="#Dessert recipes"></a> Dessert recipes</li>
+            <li><a href="#Sunday Lunch"></a> Sunday Lunch</li>
       <input type="text" placeholder="Search.." name="search">
     </form>
           </ul>
 
       </div>
     </div>
-    <div class="slideshow-container">
+    <div id="page1">
+      <a id="Home" class="smooth"></a>
+      <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 4</div>
-    <img src="images/f4f.png" style="width:100%">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="images/f4f.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="images/Lunch.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="images/Dinner3.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/Brunch.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img src="images/Lunch.png" style="width:100%">
-  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img src="images/Dinner3.png" style="width:100%">
-  </div>
+    </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img src="images/Brunch.png" style="width:100%">
-  </div>
+    <div class="icon-bar">
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+      <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+      <a href="https://www.instagram.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+    <div class="page2">
+
+      <div class="icon-bar">
+
+        <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+        <a href="https://www.instagram.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="header">
+
+        <div>
+          <ul>
+            <li><a href="#Home"></a> Home</li>
+            <li><a href="about"></a> About </li>
+            <li><a href="#Brunch in Bath"></a> Brunch in Bath</li>
+            <li><a href= '#DinnerDateInspo'></a>Dinner Date Inspo</li>
+            <li><a href="#Dessert recipes"></a> Dessert recipes</li>
+            <li><a href="#Sunday Lunch"></a> Sunday Lunch</li>
+      <input type="text" placeholder="Search.." name="search">
+    </form>
+          </ul>
+
+      </div>
+    </div>
+
+      <div class="text-block2">
+        <h1> About Us! </h1>
+      </div>
+      <img src="images/coffee.jpg" style="width: 100%">
+      <a id="about" class="smooth"></a>
+      <div class="text-block">
+        <h1> Miada and Sara </h1>
+        <p> We are 2 budding coding students, trying to bring you the best of bath<br>
+        Our aim is to narrow down and categorise places for you to eat whether you're<br>
+        a student or a tourist. We would love to hear from you and if you want to hear<br>
+        more from us please fill in the form below, click on our socials to find out more</p>
+      </div>
+      <div class="text-block2">
+        <h1> About Us! </h1>
+      </div>
 
 
-</div>
+    </div>
 
-<div class="icon-bar">
-  <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
-  <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
-  <a href="https://www.instagram.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-  <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
-</div>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqLJpGdVwX2TgbD53s5aFQcH5ZP6pZiDAX1cHYap06NjlLyw/viewform?embedded=true"
+    width="100%" height="1141" frameborder="0"
+    marginheight="0" marginwidth="0">Loading...</iframe>
 
-<div class="About">
-  <p> About: We are Miada and sara a dynamic duo working to bring you the best of food in Bath<br>
-      our socials are pinned to the front page<br>
-      to contact us you can find us on: DiningReport@gmail.com </p>
+
+  </body>
+
+
+
+
+
 
 
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+<script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+</script>
 
 <script>
 
