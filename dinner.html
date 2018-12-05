@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Thumbnail Grid with Expanding Preview</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="navbar" style="z-index: 10">
+				<a href="FinalWebsite.html">Home</a>
+				<a href="FinalWebsite.html ">Dinner Date Inspo</a>
+				<a href="lunch.html">Brunch in Bath</a>
+				<a href="#Dessert">Dessert Recipes</a>
+				<a href="#SundayLunch">Sunday Lunch</a>
+				<a href="#page4">About</a>
+				<a href="#page5">Contact Us</a>
+				<form id="header" method="get" action="https://www.google.com">
+				<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+				</form>
+		</div>
+
+		<div class="container">
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+
+				<span class="right">
+					<a href="http://cargocollective.com/jaimemartinez"></a>
+					<a href="http://tympanus.net/codrops/?p=14530"><strong></strong></a>
+				</span>
+			</div><!--/ Codrops top bar -->
+			<header class="clearfix">
+				<h1>Dinner <span>With all that Bath Has to offer why not visit one of the many restaurants<br> whether enjoying time with a loved one or celebrating something special, heres a list for you! </span></h1>
+			</header>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<p> Mint rooms </p>
+						<div id="image">
+						<a href="https://www.mintroombath.co.uk/" data-largesrc="images/mintroom.jpg" data-title="Mintroom" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+						</div>
+							<img src="images/mintroom.jpg" alt="img01"/>
+						</a>
+					</li>
+					<li>
+						<p> SotoSoto </p>
+						<a href="http://www.sottosotto.co.uk/" data-largesrc="images/sotosoto.jpg" data-title="SotoSoto" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+							<img src="images/sotosoto.jpg" alt="img02"/>
+						</a>
+					</li>
+					<li>
+						<p>Clayton's kitchen</p>
+						<a href="https://www.claytonskitchen.com/" data-largesrc="images/claytons.jpg" data-title="claytons" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+							<img src="images/claytons.jpg" alt="img03"/>
+						</a>
+					</li>
+
+				</ul>
+				<p> <a href="http://veggieipsum.com/"></a></p>
+				<a id="og-additems" href="#"></a>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>
